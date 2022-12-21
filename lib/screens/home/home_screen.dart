@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio_luizhbfilho/screens/home/components/keywords.dart';
+import 'package:portfolio_luizhbfilho/screens/main/main_screen.dart';
+import 'components/experiences.dart';
 import 'components/home_banner.dart';
 import 'components/my_projects.dart';
-import 'components/experiences.dart';
-import 'package:portfolio_luizhbfilho/screens/main/main_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -13,8 +12,10 @@ class HomeScreen extends StatelessWidget {
     return MainScreen(
       children: [
         HomeBanner(),
-//        Keywords(),
-        MyProjects(),
+        Padding(
+          padding: const EdgeInsets.only(top:16),
+          child: MyProjects(),
+        ),
         Experiences(),
       ],
     );

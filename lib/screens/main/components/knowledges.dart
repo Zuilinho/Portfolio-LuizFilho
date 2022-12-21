@@ -20,13 +20,13 @@ class Knowledges extends StatelessWidget {
             style: Theme.of(context).textTheme.subtitle2,
           ),
         ),
-        const KnowledgeText(text: "Android, Flutter"),
-        const KnowledgeText(text: "Coroutines, Retrofit"),
-        const KnowledgeText(text: "JUnit, Espresso"),
         const KnowledgeText(text: "MVVM, MVC"),
+        const KnowledgeText(text: "JUnit, Espresso"),
+        const KnowledgeText(text: "Git, XML, UI/UX"),
+        const KnowledgeText(text: "Android, Flutter"),
+        const KnowledgeText(text: "Coroutines, Retrofit, Dagger"),
         const KnowledgeText(text: "Clean Architecture, Clean Code"),
-        const KnowledgeText(text: "Git, GitHub"),
-        const KnowledgeText(text: "SQL Databases, Data Structures"),
+        const KnowledgeText(text: "SQL Databases, Data Structures")
       ],
     );
   }

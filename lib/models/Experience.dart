@@ -6,23 +6,18 @@ class Experience {
 
 final List<Experience> experiences = [
   Experience(
-      roleCompanyName: "SUPPORT ANALYST - VELSIS",
-      period: "FEB/2022 - CURRENT",
+      roleCompanyName: "MOBILE DEVELOPER - FREELANCE",
+      period: "JUN/2022 - PRESENT",
       description:
-          "Support N2, N3 to present systems in company equipments. \nSkills: PostgreSQL, Java, Linux"),
+      "Acting with own projects and assisting in other projects. Development and complete launch of an app."),
+  Experience(
+      roleCompanyName: "ANALYST - VELSIS",
+      period: "FEB/2022 - PRESENT",
+      description:
+          "L2, L3 support for systems on company equipment and some software improvements."),
   Experience(
       roleCompanyName: "IT ASSISTANT - TROMBINI EMBALAGENS S/A",
       period: "NOV/2019 - JUL/2021",
       description:
-          "Helpdesk level support for 2000+ collaborators and support for Oracle and company systems. \nSkills: Communication, Java and Problem Solving"),
-  Experience(
-      roleCompanyName: "IT INTERN - MORK",
-      period: "MAR/2019 - OCT/2019",
-      description:
-          "Helpdesk support for employees and participation in improvement projects. \nSkills: Teamwork, Communication and Problem Solving"),
-  Experience(
-      roleCompanyName: "IT INTERN - COLOMBO CITY HALL",
-      period: "MAR/2017 - APR/2018",
-      description:
-          "Helpdesk support to sectors of the city hall and participation in projects. \nSkills: Teamwork, Communication, Problem Solving and Linux"),
+          "Helpdesk level support for 2000+ collaborators, support for Oracle and company systems and software audits."),
 ];

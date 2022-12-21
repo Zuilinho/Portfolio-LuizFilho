@@ -34,7 +34,7 @@ class ProjectsGridView extends StatelessWidget {
   const ProjectsGridView({
     Key? key,
     this.crossAxisCount = 3,
-    this.childAspectRatio = 1.3,
+    this.childAspectRatio = 2.5,
   }) : super(key: key);
 
   final int crossAxisCount;
@@ -59,3 +59,5 @@ class ProjectsGridView extends StatelessWidget {
     );
   }
 }
+
+

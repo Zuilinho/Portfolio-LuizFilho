@@ -28,7 +28,7 @@ class HomeBanner extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    "Hi! I'm a man with big dreams \nand who loves technology",
+                    "Hi! I create solutions for mobile",
                     style: Responsive.isDesktop(context)
                         ? Theme.of(context).textTheme.headline3!.copyWith(
                               fontWeight: FontWeight.bold,
@@ -76,7 +76,7 @@ class AnimatedText extends StatelessWidget {
     return AnimatedTextKit(
       animatedTexts: [
         TyperAnimatedText(
-          "build things for mobile and web",
+          "am always improving my skills",
           speed: const Duration(milliseconds: 150),
         ),
         TyperAnimatedText(

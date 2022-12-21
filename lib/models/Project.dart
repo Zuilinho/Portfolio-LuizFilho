@@ -6,15 +6,15 @@ class Project {
 
 List<Project> projects = [
   Project(
-    title: "Order App",
-    description: "An App made to list orders. \nTechnologies: \n- Kotlin \n- Android Studio \n- SQLite"
+    title: "Weathr App",
+    description: "Development of an app capable of analyzing habits and places that a user frequents to suggest activities and share information about the day."
   ),
   Project(
       title: "My Responsive Portfolio",
-      description: "This portfolio made with Flutter, only for web. \nImprovements in progress: \n- Dark/light mode \n- Language selection \n- Others"
+      description: "This portfolio made with Flutter, only for web."
   ),
   Project(
-      title: "Dentist SOS",
-      description: "A webpage made with Flutter, trying to help dental students with simple information for dental procedures. \nIn progress."
+      title: "Data Structures Puzzle",
+      description: "Solving a puzzle as a work in the Data Structure discipline to deal with different types of structure such as Stack, List, Queue and Binary Tree."
   ),
 ];
