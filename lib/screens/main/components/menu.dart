@@ -1,6 +1,8 @@
 import 'dart:html';
 import 'dart:io';
 
+import 'package:portfolio_luizhbfilho/screens/main/components/education_info_text.dart';
+
 import 'my_info.dart';
 import 'package:unicons/unicons.dart';
 import 'package:flutter/widgets.dart';
@@ -29,22 +31,9 @@ class Menu extends StatelessWidget {
                 padding: const EdgeInsets.all(defaultPadding),
                 child: Column(
                   children: [
-                    const AreaInfoText(
-                      title: "Age",
-                      text: "23",
-                    ),
-                    const AreaInfoText(
-                      title: "City",
-                      text: "Curitiba",
-                    ),
-                    const AreaInfoText(
-                      title: "Country",
-                      text: "Brazil",
-                    ),
-                    const AreaInfoText(
-                      title: "University",
-                      text: "PUCPR",
-                    ),
+                    const Education(),
+                    const Divider(),
+                    const AreaInfoText(),
                     const Skills(),
                     const SizedBox(height: defaultPadding),
                     const Coding(),

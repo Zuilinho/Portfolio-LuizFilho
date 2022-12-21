@@ -3,9 +3,9 @@ import 'package:portfolio_luizhbfilho/constants.dart';
 import 'package:unicons/unicons.dart';
 
 class Knowledges extends StatelessWidget {
-  const Knowledges ({
+  const Knowledges({
     Key? key,
-}) : super (key: key);
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +14,7 @@ class Knowledges extends StatelessWidget {
       children: [
         Divider(),
         Padding(
-            padding: const EdgeInsets.symmetric(vertical: defaultPadding),
+          padding: const EdgeInsets.symmetric(vertical: defaultPadding),
           child: Text(
             "KNOWLEDGES",
             style: Theme.of(context).textTheme.subtitle2,
@@ -33,10 +33,10 @@ class Knowledges extends StatelessWidget {
 }
 
 class KnowledgeText extends StatelessWidget {
-  const KnowledgeText ({
+  const KnowledgeText({
     Key? key,
     required this.text,
-}) : super (key: key);
+  }) : super(key: key);
 
   final String text;
 

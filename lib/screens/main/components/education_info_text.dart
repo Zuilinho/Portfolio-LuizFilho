@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:portfolio_luizhbfilho/constants.dart';
 import 'package:unicons/unicons.dart';
 
-class AreaInfoText extends StatelessWidget {
-  const AreaInfoText({
+class Education extends StatelessWidget {
+  const Education({
     Key? key,
   }) : super(key: key);
 
@@ -15,19 +15,19 @@ class AreaInfoText extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.symmetric(vertical: defaultPadding),
           child: Text(
-            "INFO",
+            "EDUCATION",
             style: Theme.of(context).textTheme.subtitle2,
           ),
         ),
-        const InfoText(text: "23 years"),
-        const InfoText(text: "Curitiba, PR, Brazil"),
+        const EducationText(text: "Bachelor in Computer Science - Present"),
+        const EducationText(text: "Pontifícia Universidade Católica do Paraná"),
       ],
     );
   }
 }
 
-class InfoText extends StatelessWidget {
-  const InfoText({
+class EducationText extends StatelessWidget {
+  const EducationText({
     Key? key,
     required this.text,
   }) : super(key: key);

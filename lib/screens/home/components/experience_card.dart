@@ -20,8 +20,7 @@ class ExperienceCard extends StatelessWidget {
           padding: const EdgeInsets.all(defaultPadding),
           decoration: BoxDecoration(
               color: colorMidnightBlue,
-              borderRadius: BorderRadius.circular(12)
-          ),
+              borderRadius: BorderRadius.circular(12)),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
