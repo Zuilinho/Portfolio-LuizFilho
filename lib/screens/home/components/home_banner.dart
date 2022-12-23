@@ -16,10 +16,7 @@ class HomeBanner extends StatelessWidget {
         child: Stack(
           fit: StackFit.expand,
           children: [
-            Image.asset(
-              "assets/images/space_background.gif",
-              fit: BoxFit.cover,
-            ),
+            Image.network("https://media3.giphy.com/media/Qvp6Z2fidQR34IcwQ5/giphy.gif?cid=ecf05e47xbqxvfk0rnnoplsx74a4igfrcgsgmiahzxq5r0t2&rid=giphy.gif&ct=g", fit: BoxFit.cover),
             Container(color: colorOxfordBlue.withOpacity(0.66)),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: defaultPadding),
