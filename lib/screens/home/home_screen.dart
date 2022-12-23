@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio_luizhbfilho/screens/home/components/spotify_view.dart';
 import 'package:portfolio_luizhbfilho/screens/main/main_screen.dart';
 import 'components/experiences.dart';
 import 'components/home_banner.dart';
@@ -17,6 +18,7 @@ class HomeScreen extends StatelessWidget {
           child: MyProjects(),
         ),
         Experiences(),
+        SpotifyView()
       ],
     );
   }
