@@ -3,9 +3,9 @@ import 'package:portfolio_luizhbfilho/constants.dart';
 import 'package:unicons/unicons.dart';
 
 class Education extends StatelessWidget {
-  const Education({
+  const Education ({
     Key? key,
-  }) : super(key: key);
+  }) : super (key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -27,10 +27,10 @@ class Education extends StatelessWidget {
 }
 
 class EducationText extends StatelessWidget {
-  const EducationText({
+  const EducationText ({
     Key? key,
     required this.text,
-  }) : super(key: key);
+  }) : super (key: key);
 
   final String text;
 
@@ -43,7 +43,7 @@ class EducationText extends StatelessWidget {
         children: [
           Icon(UniconsLine.angle_double_right),
           SizedBox(width: defaultPadding / 2),
-          Text(text),
+          Expanded(child: Text(text, softWrap: true))
         ],
       ),
     );
