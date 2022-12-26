@@ -1,7 +1,9 @@
 import 'dart:html';
 import 'dart:io';
 
+import 'package:portfolio_luizhbfilho/screens/main/components/coursework.dart';
 import 'package:portfolio_luizhbfilho/screens/main/components/education_info_text.dart';
+import 'package:portfolio_luizhbfilho/screens/main/components/languages.dart';
 
 import 'my_info.dart';
 import 'package:unicons/unicons.dart';
@@ -31,12 +33,14 @@ class Menu extends StatelessWidget {
                 padding: const EdgeInsets.all(defaultPadding),
                 child: Column(
                   children: [
+                    const AreaInfoText(),
+                    const Divider(),
                     const Education(),
                     const Divider(),
-                    const AreaInfoText(),
-                    const Skills(),
-                    const SizedBox(height: defaultPadding),
-                    const Coding(),
+                    const Coursework(),
+                    const Divider(),
+                    const Languages(),
+                    const Divider(),
                     const Knowledges(),
                     const Divider(),
                     const SizedBox(height: defaultPadding / 2),
