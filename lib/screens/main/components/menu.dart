@@ -1,20 +1,17 @@
 import 'dart:html';
-import 'dart:io';
 
+import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+import 'package:portfolio_luizhbfilho/constants.dart';
+import 'package:portfolio_luizhbfilho/screens/main/components/area_info_text.dart';
 import 'package:portfolio_luizhbfilho/screens/main/components/coursework.dart';
 import 'package:portfolio_luizhbfilho/screens/main/components/education_info_text.dart';
+import 'package:portfolio_luizhbfilho/screens/main/components/knowledges.dart';
 import 'package:portfolio_luizhbfilho/screens/main/components/languages.dart';
+import 'package:unicons/unicons.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import 'my_info.dart';
-import 'package:unicons/unicons.dart';
-import 'package:flutter/widgets.dart';
-import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
-import 'package:portfolio_luizhbfilho/constants.dart';
-import 'package:portfolio_luizhbfilho/screens/main/components/coding.dart';
-import 'package:portfolio_luizhbfilho/screens/main/components/skills.dart';
-import 'package:portfolio_luizhbfilho/screens/main/components/knowledges.dart';
-import 'package:portfolio_luizhbfilho/screens/main/components/area_info_text.dart';
 
 class Menu extends StatelessWidget {
   const Menu({
@@ -34,13 +31,9 @@ class Menu extends StatelessWidget {
                 child: Column(
                   children: [
                     const AreaInfoText(),
-                    const Divider(),
                     const Education(),
-                    const Divider(),
                     const Coursework(),
-                    const Divider(),
                     const Languages(),
-                    const Divider(),
                     const Knowledges(),
                     const Divider(),
                     const SizedBox(height: defaultPadding / 2),
@@ -98,7 +91,7 @@ class Menu extends StatelessWidget {
   downloadFile() async {
     const path = "assets/curriculo_luizhbfilho.pdf";
     AnchorElement anchorElement = AnchorElement(href: path);
-    anchorElement.download = "CV";
+    anchorElement.download = "cv_luizhbfilho";
     anchorElement.click();
   }
   openSite(String site) async {
