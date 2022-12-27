@@ -26,5 +26,4 @@ dev_dependencies:
 flutter:
   assets:
     - assets/images/my_photo.png
-    - assets/images/space_background.gif
   uses-material-design: true

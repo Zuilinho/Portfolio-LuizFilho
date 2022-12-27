@@ -26,6 +26,7 @@ class Coursework extends StatelessWidget {
         CourseTextConcluded(text: "Software Architecture"),
         CourseTextConcluded(text: "Object-Oriented Programming"),
         CourseTextConcluded(text: "Computer logic and Algorithms"),
+        CourseTextConcluded(text: "And more..."),
         CourseSubtitle(text: "Studying"),
         CourseTextStudying(text: "Big Data"),
         CourseTextStudying(text: "Systems Design"),
