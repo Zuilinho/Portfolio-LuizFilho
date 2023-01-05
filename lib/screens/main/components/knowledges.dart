@@ -32,6 +32,7 @@ class Knowledges extends StatelessWidget {
         const KnowledgeText(text: "SQL Databases, Data Structures"),
         const KnowledgesSubtitle(text: "Others"),
         const KnowledgeText(text: "Git, XML, UI/UX"),
+        const KnowledgeText(text: "Material Design 3, Firebase"),
         const KnowledgeText(text: "Coroutines, Retrofit, Dagger"),
       ],
     );
