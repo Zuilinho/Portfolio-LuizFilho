@@ -52,11 +52,11 @@ class ProjectCard extends StatelessWidget {
   }
 
   openProject(Project project) async {
-    const project1 = "https://github.com/Zuilinho/weathrapp";
+    const project1 = "https://github.com/Zuilinho/heroutine";
     const project2 = "https://github.com/Zuilinho/Portfolio-LuizFilho";
     const project3 = "https://github.com/Zuilinho";
 
-    if (project.title == "Weathr App") {
+    if (project.title == "Heroutine App") {
       if (await canLaunch(project1)) {
         await launch(project1);
       } else {

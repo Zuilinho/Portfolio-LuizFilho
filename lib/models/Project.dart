@@ -6,8 +6,8 @@ class Project {
 
 List<Project> projects = [
   Project(
-    title: "Weathr App",
-    description: "Development of an app capable of analyzing habits and places that a user frequents to suggest activities and share information about the day"
+    title: "Heroutine App",
+    description: "An app build for daily follow-up of your fitness and healthy eating"
   ),
   Project(
       title: "My Responsive Portfolio",

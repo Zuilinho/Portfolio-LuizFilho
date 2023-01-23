@@ -29,7 +29,7 @@ class Knowledges extends StatelessWidget {
         const KnowledgesSubtitle(text: "Good practices"),
         const KnowledgeText(text: "Clean Architecture, Clean Code"),
         const KnowledgesSubtitle(text: "Data managing"),
-        const KnowledgeText(text: "SQL Databases, Data Structures"),
+        const KnowledgeText(text: "SQL/NoSQL Databases, Data Structures"),
         const KnowledgesSubtitle(text: "Others"),
         const KnowledgeText(text: "Git, XML, UI/UX"),
         const KnowledgeText(text: "Material Design 3, Firebase"),
