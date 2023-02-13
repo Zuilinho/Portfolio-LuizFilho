@@ -96,7 +96,7 @@ class Menu extends StatelessWidget {
   }
   openSite(String site) async {
     const linkedinUrl = "https://www.linkedin.com/in/luizhbfilho/";
-    const gitHubUrl = "https://github.com/Zuilinho";
+    const gitHubUrl = "https://github.com/luizhbfilho";
     const instagramUrl = "https://www.instagram.com/luizbaldao/?hl=pt-br";
 
     if (site == "linkedin"){
